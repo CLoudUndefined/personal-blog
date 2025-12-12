@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="posts-grid">
+  {{ range .Pages }}
+  <article class="post-card">
+    {{ with .Params.preview_image }}
+    <img class="post-preview-image" src="{{ . | relURL }}" alt="{{ $.Title }}">
+    {{ end }}
+    <div class="post-content">
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <div class="post-meta">{{ .Date.Format "2 Jan 2006" }}</div>
+      <p class="post-excerpt">{{ .Summary | plainify | truncate 140 }}</p>
+    </div>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

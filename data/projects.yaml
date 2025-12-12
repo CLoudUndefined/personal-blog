@@ -1,0 +1,9 @@
+- title: "Personal Blog (WIP)"
+  description: "Блог на Hugo с минималистичным дизайном"
+  tech: ["Hugo", "HTML/CSS/JS", "Nix"]
+  url: "https://github.com/CLoudUndefined/personal-blog"
+  
+- title: "Backend Auth Service (WIP)"
+  description: "Практическое задание по созданию сервиса аутентификации и управления пользователями!"
+  tech: ["Typescript", "Next.js", "Knex+Objection.js"]
+  url: "https://github.com/CLoudUndefined/backend-auth-service"
