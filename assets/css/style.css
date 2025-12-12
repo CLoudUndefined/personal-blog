@@ -496,3 +496,20 @@ article img {
 .mb-0 {
   margin-bottom: 0;
 }
+
+.comments-section {
+  max-width: var(--max-width-content);
+  margin: var(--spacing-xl) auto 0;
+  padding: var(--spacing-l);
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.comments-section h3 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-m);
+  font-size: 1.3rem;
+  color: var(--color-text);
+}

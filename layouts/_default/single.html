@@ -6,4 +6,8 @@
     {{ .Content }}
   </div>
 </article>
+
+{{ if not .Params.disable_comments }}
+  {{ partial "giscus.html" . }}
+{{ end }}
 {{ end }}

@@ -2,6 +2,7 @@
 date = '2025-03-04T16:54:29+02:00'
 draft = false
 title = 'Ломаем пинг с помощью eBPF/XDP'
+disable_comments = false
 +++
 Оригинал: [Alexey Novikov](https://x3lfy.space/blog/ping/)
 

@@ -2,6 +2,7 @@
 date = '2025-03-03T13:08:47+02:00'
 draft = false
 title = 'Как мой Firefox превратился в LibreWolf'
+disable_comments = false
 +++
 
 Оригинал: [Devid Revoy – How my Firefox became a LibreWolf](https://www.davidrevoy.com/article1065/how-my-firefox-became-a-librewolf)

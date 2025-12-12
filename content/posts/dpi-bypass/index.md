@@ -2,7 +2,7 @@
 date = '2025-03-15T11:20:06+02:00'
 draft = false
 title = 'DPI блокировки и инструменты для их обхода'
-hidden = true
+disable_comments = false
 +++
 
 ![cat-for-dpi UwU](/posts/dpi-bypass/images/cat-for-dpi.jpg)
