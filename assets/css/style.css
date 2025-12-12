@@ -329,6 +329,10 @@ footer {
   line-height: 1.6;
 }
 
+.post-preview {
+  margin-bottom: 1rem;
+}
+
 article {
   background: var(--color-surface);
   padding: var(--spacing-xl) var(--spacing-m);
